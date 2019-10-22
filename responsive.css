@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1024px) and (max-width:1366px)
+{
+
+body{
+  margin:0;
+  padding:0;
+}
+nav{
+  width:30%;
+  height:30px;
+  background-color: rgba(0,0,0,0.5);
+}
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+nav ul li{
+  display:inline;
+}
+nav ul li a{
+  width:25%;
+  height:30px;
+  display:block;
+  color:orange;
+  font-family: Arial;
+  font-size: 19px;
+  float:left;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: center;
+  transition: background 1s, letter-spacing 1s;
+}
+}
